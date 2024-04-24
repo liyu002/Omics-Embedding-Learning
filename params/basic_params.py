@@ -130,7 +130,7 @@ class BasicParams:
         Save the command line parameters in a txt file to the disk
         """
         message = ''
-        message += '\nWelcome to OmiEmbed\nby Xiaoyu Zhang x.zhang18@imperial.ac.uk\n\n'
+        message += '\nWelcome to OmiEmbed Learning\n'
         message += '-----------------------Running Parameters-----------------------\n'
         for key, value in sorted(vars(param).items()):
             comment = ''
